@@ -1,7 +1,7 @@
 # Yet Another Weather App
  A normal weather app but with adding functionality of background change with change in location.
 
-The server side code has been hosted in container via render at https://yetanother-weatherapp.onrender.com 
+The server side code has been hosted in container via render(default port given to us is 10000 if we do not expicitly hardcode the port in environment variables) at https://yetanother-weatherapp.onrender.com 
 
 The server side code has also been hosted as a serverless function in netlify at 
 
