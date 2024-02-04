@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <!-- bootstrap if needed -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- boxicons if needed -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+
+
+  <body>
+
+      <!-- CONTAINER SECTION OF ui -->
+      <div class="container">
+        
+        <div class="search-box">
+          <!-- 2 WAYS OF USING BOXICONS -->
+          <i class='bx bx-map-alt'></i>
+          <!-- <box-icon type='solid' name='map-alt'></box-icon>  -->
+          <input type="text" placeholder="Enter a valid location">
+          <button class="bx bx-search-alt" title="Click me or Press Enter"></button>
+        </div>
+
+        <!-- location name printed as entered below -->
+        <p class="location-hide">Location Name</p>
+
+        <div class="weather-box">
+          <div class="box">
+            <div class="info-weather">
+              <div class="weather">
+                <img src="./img/meme.gif" alt="Mew Mew" >
+                <p class="temperature">
+                  - <span>°C</span>
+                </p>
+                <p class="description">HOOMAN LAND</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- weather details if found -->
+        <div class="weather-details">
+
+          <div class="humidity">
+            <i class="bx bx-water"></i>
+            <div class="text">
+              <div class="info-humidity">
+                <span>- %</span>
+              </div>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="wind">
+            <i class="bx bx-wind"></i>
+            <div class="text">
+              <div class="info-wind">
+                <span>- km/h</span>
+              </div>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+
+          <div class="pressure">
+            <i class="bx bx-vertical-bottom"></i>
+            <div class="text">
+              <div class="info-pressure">
+                <span>- hPa</span>
+              </div>
+              <p>Pressure</p>
+            </div>
+          </div>
+
+          <div class="visibility">
+            <i class="bx bxs-low-vision"></i>
+            <div class="text">
+              <div class="info-visibility">
+                <span>- m</span>
+              </div>
+              <p>Visibility</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- if not found location -->
+        <div class="not-found">
+          <div class="box">
+            <img src="./img/404.png" alt="404">
+            <p>TBD</p>
+          </div>
+        </div>
+
+      </div>
+    
+  
+      <!-- bootstrap if needed -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+    <!-- boxicon components if needed -->
+    <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
