@@ -7,4 +7,4 @@ The server side code has also been hosted as a serverless function in netlify at
 
 How to host in stateful docker containers via Render - [Click here](https://www.youtube.com/watch?v=yln_CffenYw)
 
-How to host sites as serverless funciton in netlify or vercel - [Click here]()
+How to host sites as serverless funciton in netlify or vercel - [Click here](https://www.youtube.com/watch?v=hpvCd5WKGLU)
