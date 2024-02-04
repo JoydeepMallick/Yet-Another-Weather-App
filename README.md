@@ -1,7 +1,9 @@
 # Yet Another Weather App
  A normal weather app but with adding functionality of background change with change in location.
 
-The server side code has been hosted at [yetanother-weatherapp]()
+The server side code has been hosted in container via render at https://yetanother-weatherapp.onrender.com 
+
+The server side code has also been hosted as a serverless function in netlify at 
 
 How to host in stateful docker containers via Render - [Click here](https://www.youtube.com/watch?v=yln_CffenYw)
 
