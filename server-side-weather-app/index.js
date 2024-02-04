@@ -5,7 +5,8 @@ require("dotenv").config()
 const app = express();
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 const IMAGE_API_KEY = process.env.IMAGE_API_KEY;
-const port = 3000
+//when on server take the port assigned else locally then use 3000
+const port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 app.use(express.json());
